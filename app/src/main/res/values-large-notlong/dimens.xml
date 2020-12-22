@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Samsung S Tab de l'Àlex petit
+    Wolder miTab
+
+    600px x 976px (600dp x 976dp)
+    Crec que l'alçada hauria de ser 1024 però els marges ho impedeixe.
+    160dpi
+    7.1"
+-->
+
+<resources>
+
+    <!-- LangActivity -->
+    <dimen name="lang_horizontal_padding">100dp</dimen>
+    <dimen name="lang_speech_balloon_button_textsize">35sp</dimen>
+
+</resources>

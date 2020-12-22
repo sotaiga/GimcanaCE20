@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sotaiga.apps.gimcanace20.MainActivity">
+    <item
+        android:id="@+id/menu_action_rules"
+        android:orderInCategory="100"
+        android:title="@string/menu_rules"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_action_company"
+        android:orderInCategory="100"
+        android:title="@string/menu_company"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_action_privacy"
+        android:orderInCategory="100"
+        android:title="@string/menu_privacy"
+        app:showAsAction="never" />
+
+    <!--item
+        android:id="@+id/menu_action_preferences"
+        android:orderInCategory="100"
+        android:title="@string/menu_preferencies"
+        app:showAsAction="never" /-->
+
+    <item
+        android:id="@+id/menu_action_about"
+        android:orderInCategory="100"
+        android:title="@string/menu_about"
+        app:showAsAction="never" />
+</menu>

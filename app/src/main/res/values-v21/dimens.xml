@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="plus_container_marginVertical">21dp</dimen>
+    <dimen name="plus_container_marginHorizontal">14dp</dimen>
+    <dimen name="plus_button_marginTop">21dp</dimen>
+    <dimen name="plus_button_marginEnd">14dp</dimen>
+
+</resources>

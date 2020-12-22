@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item app:is_empty="true"
+        android:color="@android:color/white"/>
+    <item
+        app:is_empty="false"
+        app:is_valid="true"
+        android:color="@color/color_fosc"/>
+    <item
+        app:is_empty="false"
+        app:is_valid="false"
+        android:color="@android:color/white"/>
+</selector>

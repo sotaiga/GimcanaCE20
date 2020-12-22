@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Remei
+        Samsung Mini
+
+        240px x 320px -> 3:4
+        127dpi
+    -->
+
+    <!-- LangActivity -->
+    <dimen name="lang_horizontal_padding">60dp</dimen>
+    <dimen name="lang_speech_balloon_button_textsize">20sp</dimen>
+
+</resources>

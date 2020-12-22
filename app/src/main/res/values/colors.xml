@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blanc_translucid">#CCFFFFFF</color>
+
+    <color name="ocre">#cbbba0</color>
+
+    <color name="color_fosc">#b4242e</color>
+    <color name="blau_translucid">#ee984e53</color>
+
+    <color name="gris_disabled">#333333</color>
+
+
+    <color name="verd">#15A61C</color>
+    <color name="gris_clar">#cccccc</color>
+    <color name="gris_fosc">#777777</color>
+
+
+</resources>

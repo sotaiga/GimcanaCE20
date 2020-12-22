@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:focusable="false"
+    android:gravity="center_horizontal|top"
+    android:padding="10dp"
+    android:background="@drawable/selector_question_background">
+
+    <com.sotaiga.apps.gimcanace20.ui.TextViewText
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="21sp"
+        android:elegantTextHeight="true"
+        android:layout_gravity="start|center_vertical"
+        android:textStyle="italic"
+        android:layout_marginBottom="10dp"/>
+
+    <RadioGroup
+        android:id="@+id/answers_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"/>
+
+    <com.sotaiga.apps.gimcanace20.ui.ButtonCaption
+        android:id="@+id/confirm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@drawable/selector_confirm_button"
+        android:padding="10dp"
+        android:text="confirmar" />
+
+</LinearLayout>

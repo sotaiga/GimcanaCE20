@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_plustext_background"
+        android:paddingTop="60dp"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/plus_container_marginHorizontal"
+            android:paddingRight="@dimen/plus_container_marginHorizontal">
+
+            <com.sotaiga.apps.gimcanace20.ui.TextViewCaption
+                android:id="@+id/nom_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/white"/>
+
+            <com.sotaiga.apps.gimcanace20.ui.TextViewCaption
+                android:id="@+id/tema_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"/>
+
+            <com.sotaiga.apps.gimcanace20.ui.TextViewCaption
+                android:id="@+id/ubicacio_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/white"/>
+
+            <com.sotaiga.apps.gimcanace20.ui.TextViewText
+                android:id="@+id/text_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/dotted_line_white" />
+
+            <com.sotaiga.apps.gimcanace20.ui.TextViewCaption
+                android:id="@+id/question_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="10dp"
+                android:text="Pregunta"/>
+
+            <com.sotaiga.apps.gimcanace20.ui.controls.CtrlQuestion
+                android:id="@+id/question_ctrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"/>
+
+            <com.sotaiga.apps.gimcanace20.ui.TextViewCaption
+                android:id="@+id/nexe_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="10dp"
+                android:text="Següent punt"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal|top"
+                android:padding="10dp"
+                android:background="@drawable/selector_question_background">
+
+                <com.sotaiga.apps.gimcanace20.ui.TextViewText
+                    android:id="@+id/nexe_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/dotted_line_white" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

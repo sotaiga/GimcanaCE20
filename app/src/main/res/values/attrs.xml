@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--declare-styleable name="Ctrl_LangButton_ToDelete">
+        <attr name="text" format="string" />
+        <attr name="alignment" format="string"/>
+    </declare-styleable-->
+
+    <!--declare-styleable name="styleable_is_valid">
+        <attr name="state_is_valid" format="boolean" />
+        <attr name="is_valid" format="boolean" />
+    </declare-styleable-->
+
+    <declare-styleable name="styleable_input_state">
+        <attr name="is_empty" format="boolean" />
+        <attr name="is_valid" format="boolean" />
+    </declare-styleable>
+
+</resources>

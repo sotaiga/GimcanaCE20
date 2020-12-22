@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Gimcana Medieval</string>
+
+    <!-- General -->
+    <string name="hola">Hola!</string>
+
+    <string name="backwards_button_content_description">Botó de retrocedir</string>
+
+    <!-- Menu -->
+    <string name="menu_rules">Gimcana</string>
+    <string name="menu_company">Terramar</string>
+    <string name="menu_privacy">Privacitat</string>
+    <string name="menu_about">Sobre l’app</string>
+
+    <!-- Main -->
+
+    <string name="main_welcome">Benvinguts\na Castelló\nd’Empúries</string>
+    <string name="main_button">obrir</string>
+
+    <string name="main_menu_button_content_description">Menú auxiliar</string>
+
+    <string name="start_button_content_description">Iniciar la gimcana</string>
+    <string name="start_button_text">Iniciar</string>
+
+    <!-- Login -->
+
+    <string name="login_button_content_description">registrar</string>
+    <string name="login_button_text">registrar</string>
+
+    <string name="login_text">Cal que indiqueu un nom pel vostre equip, una adreça electrònica i el codi PIN que la organització us ha facilitat.</string>
+
+    <string name="login_nom_hint">Nom de l’equip</string>
+    <string name="login_nom_content_description">Nom que identifica al vostre equip.</string>
+
+    <string name="login_email_hint">Adreça electrònica</string>
+    <string name="login_email_content_description">Adreça electrònica on rebreu les soluciones de la gimcana.</string>
+
+    <string name="login_pin_hint">Codi PIN</string>
+    <string name="login_pin_content_description">Codi PIN facilitat per la organització.</string>
+
+    <string name="login_data_placeholder">data</string>
+    <string name="login_equip_placeholder">nom de l′equip</string>
+    <string name="login_pin_placeholder">codi</string>
+
+    <!-- Map -->
+
+    <string name="result_button_content_description">confirmar resultats</string>
+    <string name="result_button_text">resultats</string>
+
+    <!-- Rules -->
+
+    <string name="rules_h1">Gimcana</string>
+    <string name="rules_h2">Normes i consideracions</string>
+    <string name="rules_lin1">- No guanya el més ràpid sinó el qui més punts fa i qui segueix el recorregut correcte.</string>
+    <string name="rules_lin2">- La Gimcana comptabilitzarà a partir que introduïu el codi que us donarem.</string>
+    <string name="rules_lin3">- Vosaltres no veureu els punts que aneu fent; el què sí us diem que com més encerts, més punts tindreu.</string>
+    <string name="rules_lin4">- Tots els membres de la unitat familiar us podreu descarregar l’aplicació, però només a través d’un dispositiu, podeu marcar les respostes.</string>
+    <string name="rules_lin5">- Si teniu un dubte, us hem habilitat a tots el número de telèfon per poder contactar i us podrem ajudar.</string>
+    <string name="rules_lin6">Gaudiu dels espais que visitareu, són oportunitats úniques per visitar.</string>
+    <string name="rules_map">Mapa</string>
+
+    <!-- Company -->
+
+    <string name="company_h1">Terramar</string>
+    <string name="company_h2">Natura i cultura</string>
+    <string name="company_text1">Terramar, Natura i Cultura és un projecte empresarial que aplega més de deu anys d’experiència dins el món de la divulgació, la dinamització i la gestió del patrimoni natural, cultural i social. Els àmbits principals de treball de l’empresa són:</string>
+    <string name="company_lin1">- L’elaboració, gestió i execució de serveis d’educació i guiatge en l’àmbit del patrimoni natural i cultural de la comarca de l’Alt Empordà.</string>
+    <string name="company_lin2">- Gestió i dinamització d’espais, recursos patrimonials i turístics.</string>
+    <string name="company_lin3">- Projectes tècnics i d’assessorament.</string>
+    <string name="company_link">terramar.org</string>
+
+    <!-- Privacy -->
+
+    <string name="privacy_h1">Política de privacitat</string>
+    <string name="privacy_h2">Drets i deures</string>
+    <string name="privacy_text1">Terramar Natura i Cultura S. L. usa i protegeix l’adreça electrònica que ens proporciones en el moment d’utilitzar aquesta aplicació.</string>
+    <string name="privacy_text2">Només usarem la teva adreça electrònica per a posar-nos en contacte amb tu per a mantenir la nostra relació, informant-te de novetats, activitats o experiències que creiem que et podrien interessar.</string>
+    <string name="privacy_text3">No transferirem la teva adreça electrònica a ningú.</string>
+    <string name="privacy_text4">En el moment que no vulguis que conservem la teva adreça electrònica només cal que ens ho comuniquis i no la tornarem a usar més i l’eliminarem dels nostres registres.</string>
+
+    <!-- About -->
+
+    <string name="about_h1">Sobre l’app</string>
+    <string name="about_app_version_label">Versió App</string>
+    <string name="about_db_version_label">Versió BBDD</string>
+    <string name="about_sdk_label">Versió SDK</string>
+    <string name="about_display_label">Pantalla</string>
+    <string name="about_code_label">Programació</string>
+    <string name="about_code_text">Enric Sala @ Sotaiga</string>
+    <string name="about_design_label">Disseny</string>
+    <string name="about_design_text">Manel Gràvalos @ Visible</string>
+    <string name="about_content_label">Continguts</string>
+    <string name="about_content_text">Terramar Natura i Cultura</string>
+    <string name="about_collaboration_label">Coŀlaboradors</string>
+    <string name="about_collaboration_text">- Ajuntament de Castelló d’Empúries\n- Ecomuseu-Farinera\n- Museu d’Història Medieval de la Cúria-Presó, s. XIV\n- Sinagoga del Puig Mercadal</string>
+    <string name="about_rate_link">Puntua l’app</string>
+
+    <!-- Result -->
+
+    <string name="send_button_content_description">boto d’enviar les respostes</string>
+    <string name="send_button_text">enviar</string>
+
+    <string name="result_text">En el moment que hagiu respost totes les preguntes caldrà que les envieu per a verificar-les.</string>
+
+    <string name="result_uncompleted_message">Cal que respongueu totes les preguntes de la gimcana.</string>
+
+    <string name="result_result_text1">Heu completat la gimcana</string>
+    <string name="result_result_text2a">en l’ordre [correcte].</string>
+    <string name="result_result_text2b">en l’ordre [incorrecte].</string>
+    <string name="result_result_text3">En [%1$d] minuts heu acumulat [%2$d] punts.</string>
+
+</resources>
