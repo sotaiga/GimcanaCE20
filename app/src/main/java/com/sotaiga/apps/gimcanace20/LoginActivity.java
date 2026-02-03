@@ -216,18 +216,13 @@ public class LoginActivity extends Activity {
         }
 
         public void afterTextChanged(Editable editable) {
-            switch (view.getId()) {
-                case R.id.nom_text_input_edit_text:
-                    validateNom();
-                    break;
-
-                case R.id.email_text_input_edit_text:
-                    validateEmail();
-                    break;
-
-                case R.id.pin_text_input_edit_text:
-                    validatePin();
-                    break;
+            int id = view.getId();
+            if (id == R.id.nom_text_input_edit_text) {
+                validateNom();
+            } else if (id == R.id.email_text_input_edit_text) {
+                validateEmail();
+            } else if (id == R.id.pin_text_input_edit_text) {
+                validatePin();
             }
         }
     }

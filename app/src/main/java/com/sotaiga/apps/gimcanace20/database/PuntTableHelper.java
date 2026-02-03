@@ -249,7 +249,7 @@ public class PuntTableHelper {
         resposta_02_textos.clear();
         resposta_03_textos.clear();
 
-        resposta_01_textos.put(pin_idioma_codi, "1937");
+        resposta_01_textos.put(pin_idioma_codi, "1837");
         pin_respostes_textos.put(resposta_codi_prefix + "_01", resposta_01_textos); // resposta correcta
 
         resposta_02_textos.put(pin_idioma_codi, "1860");

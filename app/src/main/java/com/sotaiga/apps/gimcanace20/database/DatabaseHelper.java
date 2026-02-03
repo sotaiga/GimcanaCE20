@@ -16,7 +16,7 @@ import java.util.Locale;
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     // Versió de la base de dades.
-    public static final int DATABASE_VERSION = 152;
+    public static final int DATABASE_VERSION = 153;
 
     // Nom de la base de dades.
     private static final String DATABASE_NAME = "Gimcana20Database";

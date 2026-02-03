@@ -12,7 +12,8 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import com.qozix.tileview.TileView;
+//import com.qozix.tileview.TileView;
+import com.moagrius.tileview.TileView;
 import com.sotaiga.apps.gimcanace20.database.DatabaseHelper;
 import com.sotaiga.apps.gimcanace20.model.Pregunta;
 import com.sotaiga.apps.gimcanace20.model.Punt;
@@ -73,28 +74,18 @@ public class MapActivity extends Activity {
 
             this.tileView = new TileView(this);
 
-            this.tileView.setTransitionsEnabled(false);
-
             this.tileView.setSize(5120, 3584);  // the original size of the untiled image
             this.tileView.addDetailLevel(1f, "map/tile-%d-%d.png");
 
-            // set mScale to 0, but keep scaleToFit true, so it'll be as small as possible but still match the container
+            // set mScale to 0, but keep scaleToFit true, so it'''ll be as small as possible but still match the container
             this.tileView.setScale(.55f);
 
             // markers should align to the coordinate along the horizontal center and vertical bottom
-            // this._tileView.setMarkerAnchorPoints(-0.5f, -1.0f);
-            this.tileView.setMarkerAnchorPoints(-0.5f, 1.0f);
+            this.tileView.setMarkerAnchor(-0.5f, 1.0f);
 
-            //this._tileView.setM
 
             // provide the corner coordinates for relative positioning
             this.tileView.defineBounds(0, 0, 5120, 3584);
-
-            // render while panning
-            this.tileView.setShouldRenderWhilePanning(true);
-
-            // disallow going back to minimum scale while double-taping at maximum scale (for demo purpose)
-            this.tileView.setShouldLoopScale(false);
 
             this.tileView.setSaveEnabled(true);
 
@@ -218,6 +209,20 @@ public class MapActivity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
+        tileView.resume();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        tileView.pause();
+    }
+    
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        tileView.destroy();
+        tileView = null;
     }
 
     @Override
@@ -230,7 +235,7 @@ public class MapActivity extends Activity {
     }
 
     /**
-     * This is a convenience method to scrollToAndCenter after layout (which won't happen if called directly in onCreate
+     * This is a convenience method to scrollToAndCenter after layout (which won'''t happen if called directly in onCreate
      * see https://github.com/moagrius/TileView/wiki/FAQ
      */
     public void frameTo(final double x, final double y) {

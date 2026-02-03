@@ -70,7 +70,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="@string/rules_lin1"
+                android:text="@string/rules_text0"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+            <com.sotaiga.apps.gimcanace20.ui.TextViewCaption
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="5dp"
+                android:text="@string/rules_label1"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <com.sotaiga.apps.gimcanace20.ui.TextViewText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/rules_text1_1"
                 android:textColor="@android:color/black"
                 android:textSize="19sp" />
 
@@ -78,7 +95,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="@string/rules_lin2"
+                android:text="@string/rules_text1_2"
                 android:textColor="@android:color/black"
                 android:textSize="19sp" />
 
@@ -86,7 +103,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="@string/rules_lin3"
+                android:text="@string/rules_text1_3"
                 android:textColor="@android:color/black"
                 android:textSize="19sp" />
 
@@ -94,22 +111,95 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="@string/rules_lin4"
+                android:text="@string/rules_text1_4"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+            <com.sotaiga.apps.gimcanace20.ui.TextViewCaption
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="5dp"
+                android:text="@string/rules_label2"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <com.sotaiga.apps.gimcanace20.ui.TextViewText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/rules_text2_1"
                 android:textColor="@android:color/black"
                 android:textSize="19sp" />
 
             <com.sotaiga.apps.gimcanace20.ui.TextViewText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:text="@string/rules_lin5"
+                android:text="@string/rules_text2_2"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+            <com.sotaiga.apps.gimcanace20.ui.TextViewCaption
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="5dp"
+                android:text="@string/rules_label3"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <com.sotaiga.apps.gimcanace20.ui.TextViewText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/rules_text3_1"
                 android:textColor="@android:color/black"
                 android:textSize="19sp" />
 
             <com.sotaiga.apps.gimcanace20.ui.TextViewText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/rules_lin6"
+                android:layout_marginBottom="5dp"
+                android:text="@string/rules_text3_2"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+            <com.sotaiga.apps.gimcanace20.ui.TextViewText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/rules_text3_3"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+            <com.sotaiga.apps.gimcanace20.ui.TextViewText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/rules_text3_4"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+            <com.sotaiga.apps.gimcanace20.ui.TextViewText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/rules_text3_5"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+            <com.sotaiga.apps.gimcanace20.ui.TextViewText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rules_text3_6"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+            <com.sotaiga.apps.gimcanace20.ui.TextViewText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/rules_text4"
                 android:textColor="@android:color/black"
                 android:textSize="19sp" />
 

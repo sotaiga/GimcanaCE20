@@ -82,26 +82,23 @@ public class MainActivity extends Activity implements PopupMenu.OnMenuItemClickL
 
     public boolean onMenuItemClick(MenuItem item) {
         Intent intent;
-        switch (item.getItemId()) {
-            case R.id.menu_action_rules:
-                intent = new Intent(MainActivity.this, RulesActivity.class);
-                startActivity(intent);
-                return true;
-
-            case R.id.menu_action_company:
-                intent = new Intent(MainActivity.this, CompanyActivity.class);
-                startActivity(intent);
-                return true;
-
-            case R.id.menu_action_privacy:
-                intent = new Intent(MainActivity.this, PrivacyActivity.class);
-                startActivity(intent);
-                return true;
-
-            case R.id.menu_action_about:
-                intent = new Intent(MainActivity.this, AboutActivity.class);
-                startActivity(intent);
-                return true;
+        int itemId = item.getItemId();
+        if (itemId == R.id.menu_action_rules) {
+            intent = new Intent(MainActivity.this, RulesActivity.class);
+            startActivity(intent);
+            return true;
+        } else if (itemId == R.id.menu_action_company) {
+            intent = new Intent(MainActivity.this, CompanyActivity.class);
+            startActivity(intent);
+            return true;
+        } else if (itemId == R.id.menu_action_privacy) {
+            intent = new Intent(MainActivity.this, PrivacyActivity.class);
+            startActivity(intent);
+            return true;
+        } else if (itemId == R.id.menu_action_about) {
+            intent = new Intent(MainActivity.this, AboutActivity.class);
+            startActivity(intent);
+            return true;
         }
 
         return true;

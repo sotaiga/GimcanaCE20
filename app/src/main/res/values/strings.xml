@@ -51,12 +51,28 @@
 
     <string name="rules_h1">Gimcana</string>
     <string name="rules_h2">Normes i consideracions</string>
-    <string name="rules_lin1">- No guanya el més ràpid sinó el qui més punts fa i qui segueix el recorregut correcte.</string>
-    <string name="rules_lin2">- La Gimcana comptabilitzarà a partir que introduïu el codi que us donarem.</string>
-    <string name="rules_lin3">- Vosaltres no veureu els punts que aneu fent; el què sí us diem que com més encerts, més punts tindreu.</string>
-    <string name="rules_lin4">- Tots els membres de la unitat familiar us podreu descarregar l’aplicació, però només a través d’un dispositiu, podeu marcar les respostes.</string>
-    <string name="rules_lin5">- Si teniu un dubte, us hem habilitat a tots el número de telèfon per poder contactar i us podrem ajudar.</string>
-    <string name="rules_lin6">Gaudiu dels espais que visitareu, són oportunitats úniques per visitar.</string>
+    <string name="rules_text0">El joc consisteix en un recorregut circular; en cadascuna de les localitzacions es planteja una pregunta amb 3 possibles respostes i, a més, es presenta una pista per a saber el següent espai a visitar.</string>
+
+    <string name="rules_label1">Registre</string>
+    <string name="rules_text1_1">L’aplicació demana 3 dades per a començar el joc:</string>
+    <string name="rules_text1_2"> - Nom de l’equip.</string>
+    <string name="rules_text1_3"> - Adreça electrònica.</string>
+    <string name="rules_text1_4"> - Codi pin que es facilita des de l’organització.</string>
+
+    <string name="rules_label2">Joc</string>
+    <string name="rules_text2_1">L’aplicació presenta totes les localitzacions de la gimcana sobre un mapa; amb un punt seleccionat i apretant el símbol + es mostra la pregunta, les 3 possibles respostes i la pista per a escollir el següent punt.</string>
+    <string name="rules_text2_2">Un cop confirmada no és possible canviar la resposta triada.</string>
+
+    <string name="rules_label3">Resultats</string>
+    <string name="rules_text3_1">Finalitzat el recorregut i contestades totes les preguntes, des de l’apartat de Resultats, cal enviar les respostes de l’equip per a ser validades. És en aquest moment que es mostra la puntuació final obtinguda.</string>
+    <string name="rules_text3_2">Els punt s’obtenen tenint en compte els següents criteris:</string>
+    <string name="rules_text3_3"> - Número de respostes correctes.</string>
+    <string name="rules_text3_4"> - En cas d’empat, nombre de punts visitats en l’ordre correcte.</string>
+    <string name="rules_text3_5"> - En cas d’empat, temps emprat.</string>
+    <string name="rules_text3_6">En cap moment l’aplicació mostra quines són les respostes correctes.</string>
+
+    <string name="rules_text4">Gaudiu de la oportunitat de visitar tots els espais de la gimcana.</string>
+
     <string name="rules_map">Mapa</string>
 
     <!-- Company -->
